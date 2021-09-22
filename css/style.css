@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+#textArea{
+    opacity: 0;
+}
+.good{
+    background-color: #4eeda1;
+    color: #fff;
+}
+.bad{
+    background-color: #ff776e;
+    color: #fff;
+}
+span{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    letter-spacing: 1px;
+    word-spacing: -5px;
+}
+.current{
+    background-color: gray;
+    color: #fff;
+}
+
+.spanWidth{
+    word-spacing: 0px;
+}
+#text{
+    cursor: text;
+}
+
+td{
+    border: 1px solid gray;
+}

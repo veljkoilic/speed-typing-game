@@ -5,9 +5,9 @@ $(document).ready(function(){
 
         //quote api ajax call
         $.ajax({
-            url: "https://goquotes-api.herokuapp.com/api/v1/random?count=1",
+            url: "https://api.quotable.io/random",
             success: function(result){
-                const text = result.quotes[0].text;
+                const text = result.content;
 
                 
                 let explodedText = "";
@@ -76,10 +76,10 @@ $(document).ready(function(){
                     $(".good:last").next().removeClass("current")
                     console.log("iznad ifa: " + text)
 
-                    if(inputText == result.quotes[0].text.substring(0, inputText.length)){
+                    if(inputText == result.content.substring(0, inputText.length)){
                         console.info('Ispravno')
                         console.log(text)
-                        console.log(result.quotes[0].text.substring(0, inputText.length))
+                        console.log(result.content.substring(0, inputText.length))
 
                         console.log(inputText.length + 1);
                         //highlight correct letters

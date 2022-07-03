@@ -13,5 +13,7 @@ The progress is stored in localstorage for the user to keep track of the charact
 ## Possible future update
 The design is pretty rudimentary. Only bootstrap was used for quick styling. So I will possibly make it look good 👍
 
+Update: I just made it dark and responsive.
+
 ## Install
 Clone the repository and start index.html

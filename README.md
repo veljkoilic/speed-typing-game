@@ -2,6 +2,9 @@
 ## Speed typing game
 Is a **Vanilla JS Web game** where you race against the clock to type out a randomly generated quote. Playing this game greatly increases typing speed and accuracy.
 
+[Live Preview](https://veljkoilic.github.io/speed-typer/)
+
+
 <img src="https://i.ibb.co/pJS6SKX/speed-type.png" alt="speed typing game">
 
 ## Main functionalities
